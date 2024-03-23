@@ -1,34 +1,143 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Mad Libs: The Alien Encounter</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>JS Mad Libs: The Alien Encounter</h1>
-    <form id="madLibForm">
-      <label for="noun1">Noun:</label>
-      <input type="text" id="noun1" name="noun1" required /><br />
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>The Whimsical Cake Baking Adventure</title>
+  <link rel="stylesheet" href="madlibsstyle.css">
 
-      <label for="verb1">Verb:</label>
-      <input type="text" id="verb1" name="verb1" required /><br />
+</head>
 
-      <label for="adjective1">Adjective:</label>
-      <input type="text" id="adjective1" name="adjective1" required /><br />
+<body>
+    <div class="container"> </div>
 
-      <label for="noun2">Noun:</label>
-      <input type="text" id="noun2" name="noun2" required /><br />
+    <a href="index.html"></a>
 
-      <label for="verb2">Verb:</label>
-      <input type="text" id="verb2" name="verb2" required /><br />
+    <h1 class="main-title">The Whimsical Cake Baking Adventure</h1>
+    <main>
+      <div class="selections-container">
+        <label class="dropdown-text" for="adjective1">Choose an adjective</label>
+        <select class="dropdown" name="adjective1" id="adjective1">
+          <option value="">Choose an option</option>
+          <option value="talented">talented</option>
+          <option value="sloppy">sloppy</option>
+          <option value="ambitious">ambitious</option>
+          <option value="crazy">crazy</option>
+        </select>
 
-      <label for="adjective2">Adjective:</label>
-      <input type="text" id="adjective2" name="adjective2" required /><br />
+        <label class="dropdown-text" for="adjective2">Choose an adjective</label>
+        <select class="dropdown" name="adjective2" id="adjective2">
+          <option value="">Choose an option</option>
+          <option value="sparkling">sparkling</option>
+          <option value="gigantic">gigantic</option>
+          <option value="enchanting">enchanting</option>
+          <option value="whimsical">whimsical</option>
+        </select>
 
-      <button type="submit">Create Story</button>
-    </form>
-    <div id="story"></div>
-    <script src="script.js"></script>
-  </body>
+        <label class="dropdown-text" for="ingredient1">Choose an ingredient</label>
+        <select class="dropdown" name="ingredient1" id="ingredient1">
+          <option value="">Choose an option</option>
+          <option value="flour">flour</option>
+          <option value="sugar">sugar</option>
+          <option value="butter">butter</option>
+          <option value="eggs">eggs</option>
+        </select>
+
+        <label class="dropdown-text" for="ingredient2">Choose an ingredient</label>
+        <select class="dropdown" name="ingredient2" id="ingredient2">
+          <option value="">Choose an option</option>
+          <option value="vanilla">vanilla</option>
+          <option value="chocolate">chocolate</option>
+          <option value="milk">milk</option>
+          <option value="baking_powder">baking_powder</option>
+        </select>
+
+        <label class="dropdown-text" for="ingredient3">Choose an ingredient</label>
+        <select class="dropdown" name="ingredient3" id="ingredient3">
+          <option value="">Choose an option</option>
+          <option value="salt">salt</option>
+          <option value="cocoa_powder">cocoa_powder</option>
+          <option value="nuts">nuts</option>
+          <option value="berries">berries</option>
+        </select>
+
+        <label class="dropdown-text" for="ingredient4">Choose an ingredient</label>
+        <select class="dropdown" name="ingredient4" id="ingredient4">
+          <option value="">Choose an option</option>
+          <option value="cinnamon">cinnamon</option>
+          <option value="nutmeg">nutmeg</option>
+          <option value="lemon_zest">lemon_zest</option>
+          <option value="honey">honey</option>
+        </select>
+
+        <label class="dropdown-text" for="ingredient5">Choose an ingredient</label>
+        <select class="dropdown" name="ingredient5" id="ingredient5">
+          <option value="">Choose an option</option>
+          <option value="sprinkles">sprinkles</option>
+          <option value="powder_sugar">powder_sugar</option>
+          <option value="almond_flakes">almond_flakes</option>
+          <option value="caramel_sauce">caramel_sauce</option>
+        </select>
+
+        <label class="dropdown-text" for="noun1">Choose a noun</label>
+        <select class="dropdown" name="noun1" id="noun1">
+          <option value="">Choose an option</option>
+          <option value="cream_cheese">cream_cheese</option>
+          <option value="magic">magic</option>
+          <option value="secret_sauce">secret_sauce</option>
+          <option value="love">love</option>
+        </select>
+
+        <label class="dropdown-text" for="noun2">Choose a noun</label>
+        <select class="dropdown" name="noun2" id="noun2">
+          <option value="">Choose an option</option>
+          <option value="treasure">treasure</option>
+          <option value="secret">secret</option>
+          <option value="potion">potion</option>
+          <option value="artifact">artifact</option>
+        </select>
+
+        <label class="dropdown-text" for="adjective3">Choose an adjective</label>
+        <select class="dropdown" name="adjective3" id="adjective3">
+          <option value="">Choose an option</option>
+          <option value="suprising">suprising</option>
+          <option value="bizarre">bizarre</option>
+          <option value="unusual">unusual</option>
+          <option value="strange">strange</option>
+        </select>
+
+        <label class="dropdown-text" for="pluralnoun">Choose a plural noun</label>
+        <select class="dropdown" name="pluralnoun" id="pluralnoun">
+          <option value="">Choose an option</option>
+          <option value="candies">candies</option>
+          <option value="flowers">flowers</option>
+          <option value="balloons">balloons</option>
+          <option value="fruit">fruit</option>
+        </select>
+
+        <label class="dropdown-text" for="adjective4">Choose an adjective</label>
+        <select class="dropdown" name="adjective4" id="adjective4">
+          <option value="">Choose an option</option>
+          <option value="delectable">delectable</option>
+          <option value="heavenly">heavenly</option>
+          <option value="divine">divine</option>
+          <option value="irresistable">irresistable</option>
+        </select>
+
+        <label class="dropdown-text" for="adjective5">Choose an adjective</label>
+        <select class="dropdown" name="adjective5" id="adjective5">
+          <option value="">Choose an option</option>
+          <option value="moist">moist</option>
+          <option value="gooey">gooey</option>
+          <option value="fluffy">fluffy</option>
+          <option value="velvety">velvety</option>
+        </select>
+      </div>
+      <button class="btn" id="generate-madlib-btn">DONE</button>
+      <p id="madlib-text"></p>
+      <div class="centered">
+        <div class="button"><a href="index.html">REDO</a></div>
+        </div>
+      </main>
+       <script  src="script.js"></script>
+      </body>
 </html>
