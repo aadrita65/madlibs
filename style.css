@@ -1,14 +1,15 @@
 body {
   padding: 10px 50px;
  background: rgb(225,210,165);
-background: linear-gradient(0deg, rgba(225,210,165,1) 0%, rgba(99,52,6,1) 100%);
+background: linear-gradient(0deg, rgb(17, 2, 65) 0%, rgb(46, 71, 138) 100%);
 }
 
 h1 {
   text-align: center;
-  color: #3f3f3f;
+  color: #a3eafd;
   font-size: 3rem;
   margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
@@ -27,21 +28,53 @@ label {
 
 input[type="text"] {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #b1e4ff;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.button {
-  background-color: #FF9138; /* Green */
- border-radius: 12px;
-  color: white;
-  padding: 15px 30px;
-  text-align: center;
+.selections-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 800px;
+  background-color: #b8e2fa;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.madlib-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 900px;
+  background-color: #1de9b6;
+  padding: 50px;
+  border-radius: 10px;
+  color: #000a47;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
   display: inline-block;
-  justify-content: center;
-  margin-right: 15px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #fff;
+  background: #000a47;
+  line-height: 1.15;
   font-size: 16px;
-  font-family: "Comic Sans MS", 
-    sans-serif;font-size: 15px; 
+}
+
+.button:hover {
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 5px #1de9b6;
+}
+
+.button2{
+  color: pink;
 }
