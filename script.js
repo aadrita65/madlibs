@@ -9,7 +9,7 @@
  let noun1 = document.getElementById("noun1");
  let noun2 = document.getElementById("noun2");
  let adjective3 = document.getElementById("adjective3");
- let pluralnoun = document.getElementById("plural noun");
+ let pluralnoun = document.getElementById("pluralnoun");
  let adjective4 = document.getElementById("adjective4");
  let adjective5 = document.getElementById("adjective5");
  let madLibTextResult = document.getElementById("madlib-text");
